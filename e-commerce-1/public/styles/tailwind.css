@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+  @apply bg-slate-200 shadow dark:bg-slate-900;
+}
+
+.navbar {
+  @apply bg-slate-100 border-gray-200 shadow-md;
+}
+
+.nav-container {
+  @apply max-w-screen-xl flex items-center justify-between mx-auto p-3;
+}
